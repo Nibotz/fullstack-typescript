@@ -1,3 +1,5 @@
+import { Patient } from '../src/types';
+
 const data = [
   {
     id: 'd2773336-f723-11e9-8f0b-362b9e155667',
@@ -41,4 +43,4 @@ const data = [
   }
 ];
 
-export default data;
+export default data as Patient[];
