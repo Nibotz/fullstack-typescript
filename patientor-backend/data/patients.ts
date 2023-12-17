@@ -43,4 +43,6 @@ const data = [
   }
 ];
 
-export default data as Patient[];
+const patientData = data.map(p => ({ ...p, entries: [] } as Patient));
+
+export default patientData;
