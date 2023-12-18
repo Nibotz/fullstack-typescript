@@ -1,9 +1,13 @@
-POST http://localhost:3001/api/patients HTTP/1.1
+GET http://localhost:3001/api/patients/d2773336-f723-11e9-8f0b-362b9e155667 HTTP/1.1
 Content-Type: application/json
 
 {
-  "name": "Niilo",
-  "occupation": "coder",
-  "gender": "male",
-  "ssn": "123"
+  "date": "2023-12-01",
+  "description": "test",
+  "specialist": "Nipa oy",
+  "type": "Hospital",
+  "discharge": {
+    "criteria": "something",
+    "date": "2023-12-05"
+  }
 }
